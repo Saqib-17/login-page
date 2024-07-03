@@ -20,7 +20,7 @@
     background-image: url(/bg02.jpg);
     height: 800px;
     width: 1300px;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: contain;
 }
 
@@ -43,6 +43,31 @@ input{
 }
 button{
     background-color: lavender;
-    box-shadow: 5px 5px 5px rgb(102, 72, 102);
-    border-left: 5px solid rgb(102, 72, 102);
+    box-shadow: 5px 5px 5px rgb(8, 73, 58);;
+    border-left: 5px solid rgb(8, 73, 58);;
+}
+.scr{
+    text-align: center;
+    color:rgb(18, 18, 30);
+}
+.info{
+  
+    text-align: left;
+    color:antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: 3px solid lavender;
+   padding: 50px;
+   width: 200px;
+   margin-left: 500px;
+   background-color: rgb(118, 131, 152);
+   
+}
+#b1{
+    background-color: lavender;
+    box-shadow: 2px 2px 2px ;
+}
+a, h5{
+    text-decoration: none;
+    color:steelblue;
+    text-align: left;
 }
