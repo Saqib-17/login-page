@@ -1,7 +1,7 @@
 
 .nav{
    
-    /* margin-left: 50px; */
+
     background-color: rgb(226, 212, 227);
     width: 550px;
     height: 30px;
@@ -36,7 +36,7 @@
     height: 800px;
     width: 1300px;
     background-repeat: repeat-y;
-    background-size: contain;
+    background-size: cover;
 }
 
 #term{
@@ -87,3 +87,9 @@ a, h5{
     margin: 7px 7px 7px 7px;
     padding: 3px;
 }
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
